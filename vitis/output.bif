@@ -1,0 +1,7 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\temp\BOOT_CHECK\vitis\BOOT_CHECK2\Debug\BOOT_CHECK2.elf
+	[destination_device = pl]C:\temp\BOOT_CHECK\BOOT_CHECK.runs\impl_1\design_1_wrapper.bit
+	C:\temp\BOOT_CHECK\vitis\app\Debug\app.elf
+}

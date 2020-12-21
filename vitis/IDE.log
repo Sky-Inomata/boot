@@ -1,0 +1,16 @@
+23:40:54 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\temp\BOOT_CHECK\vitis\temp_xsdb_launch_script.tcl
+23:40:56 INFO  : XSCT server has started successfully.
+23:40:56 INFO  : Successfully done setting XSCT server connection channel  
+23:40:56 INFO  : plnx-install-location is set to ''
+23:40:56 INFO  : Successfully done query RDI_DATADIR 
+23:40:56 INFO  : Successfully done setting workspace for the tool. 
+23:40:57 INFO  : Registering command handlers for Vitis TCF services
+23:46:15 INFO  : Checking for BSP changes to sync application flags for project 'app'...
+23:46:26 INFO  : Checking for BSP changes to sync application flags for project 'BOOT_CHECK2'...
+23:46:48 INFO  : Checking for BSP changes to sync application flags for project 'app'...
+23:47:59 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o C:/temp/BOOT_CHECK/vitis/BOOT.bin
+23:47:59 INFO  : Creating new bif file C:\temp\BOOT_CHECK\vitis\output.bif
+23:48:01 INFO  : Bootgen command execution is done.
+23:48:43 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynqmp -o C:/temp/BOOT_CHECK/vitis/BOOT.bin
+23:48:43 INFO  : Overwriting existing bif file C:\temp\BOOT_CHECK\vitis\output.bif
+23:48:44 INFO  : Bootgen command execution is done.

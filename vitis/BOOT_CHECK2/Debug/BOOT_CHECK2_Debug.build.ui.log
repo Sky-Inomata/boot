@@ -1,0 +1,192 @@
+2020-11-20T23:46:26.518757100255-23:46:26 **** Build of configuration Debug for project BOOT_CHECK2 ****
+000-make all 
+000-'Building file: ../src/psu_init.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/psu_init.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/psu_init.d" -MT"src/psu_init.o" -o "src/psu_init.o" "../src/psu_init.c"
+000/BOOT_CHECK2/src/psu_init.c15937-1-1'mask_read' defined but not used [-Wunused-function]1mask_read../src/psu_init.c:15937:12: warning: 'mask_read' defined but not used [-Wunused-function]
+000- static u32 mask_read(u32 add, u32 mask)
+000-            ^~~~~~~~~
+000-'Finished building: ../src/psu_init.c'
+000-' '
+000-'Building file: ../src/xfsbl_authentication.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_authentication.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_authentication.d" -MT"src/xfsbl_authentication.o" -o "src/xfsbl_authentication.o" "../src/xfsbl_authentication.c"
+000-In file included from ../src/xfsbl_main.h:61,
+000-                 from ../src/xfsbl_bs.h:59,
+000-                 from ../src/xfsbl_authentication.c:64:
+000/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/xfsbl_authentication.c'
+000-' '
+000-'Building file: ../src/xfsbl_board.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_board.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_board.d" -MT"src/xfsbl_board.o" -o "src/xfsbl_board.o" "../src/xfsbl_board.c"
+000-'Finished building: ../src/xfsbl_board.c'
+000-' '
+000-'Building file: ../src/xfsbl_bs.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_bs.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_bs.d" -MT"src/xfsbl_bs.o" -o "src/xfsbl_bs.o" "../src/xfsbl_bs.c"
+000-In file included from ../src/xfsbl_main.h:61,
+000-                 from ../src/xfsbl_bs.h:59,
+000-                 from ../src/xfsbl_bs.c:53:
+000/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/xfsbl_bs.c'
+000-' '
+000-'Building file: ../src/xfsbl_csu_dma.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_csu_dma.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_csu_dma.d" -MT"src/xfsbl_csu_dma.o" -o "src/xfsbl_csu_dma.o" "../src/xfsbl_csu_dma.c"
+000-'Finished building: ../src/xfsbl_csu_dma.c'
+000-' '
+000-'Building file: ../src/xfsbl_ddr_init.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_ddr_init.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_ddr_init.d" -MT"src/xfsbl_ddr_init.o" -o "src/xfsbl_ddr_init.o" "../src/xfsbl_ddr_init.c"
+000-'Finished building: ../src/xfsbl_ddr_init.c'
+000-' '
+000-'Building file: ../src/xfsbl_dfu_util.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_dfu_util.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_dfu_util.d" -MT"src/xfsbl_dfu_util.o" -o "src/xfsbl_dfu_util.o" "../src/xfsbl_dfu_util.c"
+000-'Finished building: ../src/xfsbl_dfu_util.c'
+000-' '
+000-'Building file: ../src/xfsbl_exit.S'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_exit.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_exit.d" -MT"src/xfsbl_exit.o" -o "src/xfsbl_exit.o" "../src/xfsbl_exit.S"
+000-'Finished building: ../src/xfsbl_exit.S'
+000-' '
+000-'Building file: ../src/xfsbl_handoff.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_handoff.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_handoff.d" -MT"src/xfsbl_handoff.o" -o "src/xfsbl_handoff.o" "../src/xfsbl_handoff.c"
+000-In file included from ../src/xfsbl_main.h:61,
+000-                 from ../src/xfsbl_handoff.c:57:
+000/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/xfsbl_handoff.c'
+000-' '
+000-'Building file: ../src/xfsbl_hooks.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_hooks.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_hooks.d" -MT"src/xfsbl_hooks.o" -o "src/xfsbl_hooks.o" "../src/xfsbl_hooks.c"
+000-'Finished building: ../src/xfsbl_hooks.c'
+000-' '
+000-'Building file: ../src/xfsbl_image_header.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_image_header.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_image_header.d" -MT"src/xfsbl_image_header.o" -o "src/xfsbl_image_header.o" "../src/xfsbl_image_header.c"
+000-'Finished building: ../src/xfsbl_image_header.c'
+000-' '
+000-'Building file: ../src/xfsbl_initialization.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_initialization.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_initialization.d" -MT"src/xfsbl_initialization.o" -o "src/xfsbl_initialization.o" "../src/xfsbl_initialization.c"
+000-In file included from ../src/xfsbl_main.h:61,
+000-                 from ../src/xfsbl_initialization.c:69:
+000/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/xfsbl_initialization.c'
+000-' '
+000-'Building file: ../src/xfsbl_main.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_main.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_main.d" -MT"src/xfsbl_main.o" -o "src/xfsbl_main.o" "../src/xfsbl_main.c"
+000-In file included from ../src/xfsbl_main.h:61,
+000-                 from ../src/xfsbl_main.c:52:
+000/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/xfsbl_main.c'
+000-' '
+000-'Building file: ../src/xfsbl_misc.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_misc.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_misc.d" -MT"src/xfsbl_misc.o" -o "src/xfsbl_misc.o" "../src/xfsbl_misc.c"
+000-In file included from ../src/xfsbl_main.h:61,
+000-                 from ../src/xfsbl_misc.c:51:
+000/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/xfsbl_misc.c'
+000-' '
+000-'Building file: ../src/xfsbl_misc_drivers.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_misc_drivers.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_misc_drivers.d" -MT"src/xfsbl_misc_drivers.o" -o "src/xfsbl_misc_drivers.o" "../src/xfsbl_misc_drivers.c"
+000-'Finished building: ../src/xfsbl_misc_drivers.c'
+000-' '
+000-'Building file: ../src/xfsbl_nand.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_nand.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_nand.d" -MT"src/xfsbl_nand.o" -o "src/xfsbl_nand.o" "../src/xfsbl_nand.c"
+000-'Finished building: ../src/xfsbl_nand.c'
+000-' '
+000-'Building file: ../src/xfsbl_partition_load.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_partition_load.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_partition_load.d" -MT"src/xfsbl_partition_load.o" -o "src/xfsbl_partition_load.o" "../src/xfsbl_partition_load.c"
+000-In file included from ../src/xfsbl_main.h:61,
+000-                 from ../src/xfsbl_partition_load.c:69:
+000/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/xfsbl_partition_load.c'
+000-' '
+000-'Building file: ../src/xfsbl_plpartition_valid.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_plpartition_valid.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_plpartition_valid.d" -MT"src/xfsbl_plpartition_valid.o" -o "src/xfsbl_plpartition_valid.o" "../src/xfsbl_plpartition_valid.c"
+000-In file included from ../src/xfsbl_main.h:61,
+000-                 from ../src/xfsbl_authentication.h:62,
+000-                 from ../src/xfsbl_plpartition_valid.h:58,
+000-                 from ../src/xfsbl_plpartition_valid.c:75:
+000/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/xfsbl_plpartition_valid.c'
+000-' '
+000-'Building file: ../src/xfsbl_qspi.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_qspi.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_qspi.d" -MT"src/xfsbl_qspi.o" -o "src/xfsbl_qspi.o" "../src/xfsbl_qspi.c"
+000-'Finished building: ../src/xfsbl_qspi.c'
+000-' '
+000-'Building file: ../src/xfsbl_rsa_sha.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_rsa_sha.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_rsa_sha.d" -MT"src/xfsbl_rsa_sha.o" -o "src/xfsbl_rsa_sha.o" "../src/xfsbl_rsa_sha.c"
+000-In file included from ../src/xfsbl_main.h:61,
+000-                 from ../src/xfsbl_authentication.h:62,
+000-                 from ../src/xfsbl_rsa_sha.c:52:
+000/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/xfsbl_rsa_sha.c'
+000-' '
+000-'Building file: ../src/xfsbl_sd.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_sd.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_sd.d" -MT"src/xfsbl_sd.o" -o "src/xfsbl_sd.o" "../src/xfsbl_sd.c"
+000-In file included from ../src/xfsbl_main.h:61,
+000-                 from ../src/xfsbl_sd.c:49:
+000/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000- #pragma message ("For the sleep routines, Global timer is being used")
+000-         ^~~~~~~
+000-'Finished building: ../src/xfsbl_sd.c'
+000-' '
+000-'Building file: ../src/xfsbl_translation_table.S'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_translation_table.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_translation_table.d" -MT"src/xfsbl_translation_table.o" -o "src/xfsbl_translation_table.o" "../src/xfsbl_translation_table.S"
+000/BOOT_CHECK2/src/xfsbl_translation_table.S106-1-1#warning "There's no DDR_1 in the HW design. MMU translation table marks 32 GB DDR address space as undefined" [-Wcpp]1-../src/xfsbl_translation_table.S:106:2: warning: #warning "There's no DDR_1 in the HW design. MMU translation table marks 32 GB DDR address space as undefined" [-Wcpp]
+000- #warning "There's no DDR_1 in the HW design. MMU translation table marks 32 GB DDR address space as undefined"
+000-  ^~~~~~~
+000-'Finished building: ../src/xfsbl_translation_table.S'
+000-' '
+000-'Building file: ../src/xfsbl_usb.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xfsbl_usb.o" -Os -flto -ffat-lto-objects -IC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xfsbl_usb.d" -MT"src/xfsbl_usb.o" -o "src/xfsbl_usb.o" "../src/xfsbl_usb.c"
+000-'Finished building: ../src/xfsbl_usb.c'
+000-' '
+000-'Building target: BOOT_CHECK2.elf'
+000-'Invoking: ARM v8 gcc linker'
+000-aarch64-none-elf-gcc -n -Wl,-T -Wl,../src/lscript.ld -LC:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "BOOT_CHECK2.elf"  ./src/psu_init.o ./src/xfsbl_authentication.o ./src/xfsbl_board.o ./src/xfsbl_bs.o ./src/xfsbl_csu_dma.o ./src/xfsbl_ddr_init.o ./src/xfsbl_dfu_util.o ./src/xfsbl_exit.o ./src/xfsbl_handoff.o ./src/xfsbl_hooks.o ./src/xfsbl_image_header.o ./src/xfsbl_initialization.o ./src/xfsbl_main.o ./src/xfsbl_misc.o ./src/xfsbl_misc_drivers.o ./src/xfsbl_nand.o ./src/xfsbl_partition_load.o ./src/xfsbl_plpartition_valid.o ./src/xfsbl_qspi.o ./src/xfsbl_rsa_sha.o ./src/xfsbl_sd.o ./src/xfsbl_translation_table.o ./src/xfsbl_usb.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: BOOT_CHECK2.elf'
+000-' '
+000-'Invoking: ARM v8 Print Size'
+000-aarch64-none-elf-size BOOT_CHECK2.elf  |tee "BOOT_CHECK2.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  73200	   4992	  84664	 162856	  27c28	BOOT_CHECK2.elf
+000-'Finished building: BOOT_CHECK2.elf.size'
+000-' '
+00255-
+23:46:39 Build Finished (took 13s.376ms)
+

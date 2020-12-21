@@ -1,0 +1,23 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.80222",
+   "Default View_TopLeft":"92,-310",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port GPIO_0 -pg 1 -lvl 4 -x 1170 -y 0 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 270 -y -210 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 1 -x 270 -y 10 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 3 -x 970 -y -60 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 2 -x 690 -y 0 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 -40 -310 580 -100 N
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 2 N -210 800
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 0 4 -30 130 570J 80 N 80 1140
+preplace netloc S00_AXI_1 1 0 2 -30 -300 570
+preplace netloc axi_interconnect_0_M00_AXI 1 1 1 570 -20n
+preplace netloc axi_gpio_0_GPIO 1 2 2 800J 40 1150J
+levelinfo -pg 1 -60 270 690 970 1170
+pagesize -pg 1 -db -bbox -sgen -60 -490 1270 180
+"
+}
+

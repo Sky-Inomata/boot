@@ -1,0 +1,10 @@
+2020-11-20T23:46:40.482186700255-23:46:40 **** Build of configuration Debug for project BOOT_CHECK2_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 59455 C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/temp/BOOT_CHECK/vitis/BOOT_CHECK2_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/temp/BOOT_CHECK/vitis/BOOT_CHECK2_system/Debug/system.bif --bitstream C:/temp/BOOT_CHECK/vitis/BOOT_CHECK2/_ide/bitstream/design_1_wrapper.bit --elf C:/temp/BOOT_CHECK/vitis/BOOT_CHECK2/Debug/BOOT_CHECK2.elf,psu_cortexa53_0
+000-creating BOOT.BIN using C:/temp/BOOT_CHECK/vitis/BOOT_CHECK2/_ide/bitstream/design_1_wrapper.bit
+000-Running C:/Xilinx/Vitis/2019.2/bin/bootgen -arch zynqmp -image C:/temp/BOOT_CHECK/vitis/BOOT_CHECK2_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+23:46:47 Build Finished (took 7s.90ms)
+

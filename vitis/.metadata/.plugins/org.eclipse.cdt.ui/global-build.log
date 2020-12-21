@@ -1,0 +1,7 @@
+creating BOOT.BIN using C:/temp/BOOT_CHECK/vitis/BOOT_CHECK2/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2019.2/bin/bootgen -arch zynqmp -image C:/temp/BOOT_CHECK/vitis/BOOT_CHECK2_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+Nothing to build in platform 'design_1_wrapper'
+
+23:46:48 **** Incremental Build of configuration Debug for project app ****
+make all 
+make: Nothing to be done for 'all'.

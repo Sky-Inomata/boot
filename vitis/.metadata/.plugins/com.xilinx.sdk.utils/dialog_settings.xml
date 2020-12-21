@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\temp\BOOT_CHECK\vitis\app\Debug" key="bootgen_files_selection"/>
+	<item value="C:\temp\BOOT_CHECK\vitis\BOOT_CHECK2\Debug" key="zynq_flash_files_selection"/>
+	<item value="C:\temp\BOOT_CHECK" key="scw_hwspec"/>
+</section>

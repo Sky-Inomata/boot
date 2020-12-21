@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="app" key="programflash.hwplatform"/>
+	<item value="Local" key="app-target"/>
+	<item value="" key="BOOT_CHECK2-offSet"/>
+	<item value="C:\temp\BOOT_CHECK\vitis\BOOT_CHECK2\Debug\BOOT_CHECK2.elf" key="app-fsblFile"/>
+	<item value="" key="app-offSet"/>
+	<item value="Auto Detect" key="app-device"/>
+	<item value="Auto Detect" key="BOOT_CHECK2-device"/>
+	<item value="qspi-x4-single" key="app-flashType"/>
+	<item value="false" key="BOOT_CHECK2-verifyFlash"/>
+	<item value="" key="BOOT_CHECK2-imgFile"/>
+	<item value="Local" key="BOOT_CHECK2-target"/>
+	<item value="C:/temp/BOOT_CHECK/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/boot/fsbl.elf" key="BOOT_CHECK2-fsblFile"/>
+	<item value="C:\temp\BOOT_CHECK\vitis\BOOT.bin" key="app-imgFile"/>
+	<item value="qspi-x4-single" key="BOOT_CHECK2-flashType"/>
+	<item value="false" key="BOOT_CHECK2-blankCheck"/>
+	<item value="false" key="app-blankCheck"/>
+	<item value="false" key="app-verifyFlash"/>
+</section>
