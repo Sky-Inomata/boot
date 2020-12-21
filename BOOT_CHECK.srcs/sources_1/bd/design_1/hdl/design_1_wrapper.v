@@ -15,6 +15,7 @@ module design_1_wrapper
 
   wire [3:0]GPIO_0_tri_o;
 
+//addtest
   design_1 design_1_i
        (.GPIO_0_tri_o(GPIO_0_tri_o));
 endmodule
